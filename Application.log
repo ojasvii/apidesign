@@ -1,0 +1,243 @@
+2024-09-30 16:51:19,001 INFO  - Request URI is - https://restful-booker.herokuapp.com/auth
+2024-09-30 16:51:19,002 INFO  - Request Payload is - {
+	"username":"admin",
+	"password":"pasword123"
+}
+2024-09-30 16:51:22,268 INFO  - Request Response is - {"reason":"Bad credentials"}
+2024-09-30 17:25:40,226 INFO  - ****************************************************************************************
+2024-09-30 17:25:40,227 INFO  - ****************************************************************************************
+2024-09-30 17:25:40,227 INFO  - $$$$$$$$$$$$$$$$$$$$$            Create Token         $$$$$$$$$$$$$$$$$$$$$$$$$
+2024-09-30 17:25:40,227 INFO  - ****************************************************************************************
+2024-09-30 17:25:40,227 INFO  - ****************************************************************************************
+2024-09-30 17:25:40,227 INFO  - Step1 : Genereating the payload string.
+2024-09-30 17:25:40,233 INFO  - Step2 : Executing the create token API
+2024-09-30 17:25:40,237 INFO  - Request URI is - https://restful-booker.herokuapp.com/auth
+2024-09-30 17:25:40,237 INFO  - Request Payload is - {
+	"username":"admin",
+	"password":"pasword123"
+}
+2024-09-30 17:25:43,323 INFO  - Request Response is - {"reason":"Bad credentials"}
+2024-09-30 17:25:43,323 INFO  - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2024-09-30 17:25:43,323 INFO  - XXXXXXXXXXXXXXXXXXXXXXX***********************************************XXXXXXXXXXXXXXXXXXXXXX
+2024-09-30 17:25:43,323 INFO  - XXXXXXXXXXXXXXXXXXXXXXX***********************************************XXXXXXXXXXXXXXXXXXXXXX
+2024-09-30 17:25:43,323 INFO  - X
+2024-09-30 17:25:43,323 INFO  - X
+2024-09-30 17:25:43,323 INFO  - X
+2024-09-30 17:25:43,323 INFO  - X
+2024-09-30 17:25:43,323 INFO  - X
+2024-09-30 17:26:11,846 INFO  - ****************************************************************************************
+2024-09-30 17:26:11,846 INFO  - ****************************************************************************************
+2024-09-30 17:26:11,846 INFO  - $$$$$$$$$$$$$$$$$$$$$            Create Token         $$$$$$$$$$$$$$$$$$$$$$$$$
+2024-09-30 17:26:11,846 INFO  - ****************************************************************************************
+2024-09-30 17:26:11,846 INFO  - ****************************************************************************************
+2024-09-30 17:26:11,846 INFO  - Step1 : Genereating the payload string.
+2024-09-30 17:26:11,851 INFO  - Step2 : Executing the create token API
+2024-09-30 17:26:11,855 INFO  - Request URI is - https://restful-booker.herokuapp.com/auth
+2024-09-30 17:26:11,855 INFO  - Request Payload is - {
+	"username":"admin",
+	"password":"password123"
+}
+2024-09-30 17:26:14,671 INFO  - Request Response is - {"token":"9a1e3957f7f6fb5"}
+2024-09-30 17:26:14,671 INFO  - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2024-09-30 17:26:14,671 INFO  - XXXXXXXXXXXXXXXXXXXXXXX***********************************************XXXXXXXXXXXXXXXXXXXXXX
+2024-09-30 17:26:14,671 INFO  - XXXXXXXXXXXXXXXXXXXXXXX***********************************************XXXXXXXXXXXXXXXXXXXXXX
+2024-09-30 17:26:14,671 INFO  - X
+2024-09-30 17:26:14,671 INFO  - X
+2024-09-30 17:26:14,671 INFO  - X
+2024-09-30 17:26:14,671 INFO  - X
+2024-09-30 17:26:14,671 INFO  - X
+2024-09-30 17:31:50,887 INFO  - ****************************************************************************************
+2024-09-30 17:31:50,888 INFO  - ****************************************************************************************
+2024-09-30 17:31:50,888 INFO  - $$$$$$$$$$$$$$$$$$$$$            Create Token         $$$$$$$$$$$$$$$$$$$$$$$$$
+2024-09-30 17:31:50,888 INFO  - ****************************************************************************************
+2024-09-30 17:31:50,888 INFO  - ****************************************************************************************
+2024-09-30 17:31:50,888 INFO  - Step1 : Genereating the payload string.
+2024-09-30 17:31:50,891 INFO  - Step2 : Executing the create token API
+2024-09-30 17:31:50,895 INFO  - Request URI is - https://restful-booker.herokuapp.com/auth
+2024-09-30 17:31:50,895 INFO  - Request Payload is - {
+	"username":"admin",
+	"password":"password123"
+}
+2024-09-30 17:31:53,964 INFO  - Request Response is - {"token":"f7730f1186b1aea"}
+2024-09-30 17:31:54,373 INFO  - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2024-09-30 17:31:54,373 INFO  - XXXXXXXXXXXXXXXXXXXXXXX***********************************************XXXXXXXXXXXXXXXXXXXXXX
+2024-09-30 17:31:54,373 INFO  - XXXXXXXXXXXXXXXXXXXXXXX***********************************************XXXXXXXXXXXXXXXXXXXXXX
+2024-09-30 17:31:54,373 INFO  - X
+2024-09-30 17:31:54,373 INFO  - X
+2024-09-30 17:31:54,373 INFO  - X
+2024-09-30 17:31:54,373 INFO  - X
+2024-09-30 17:31:54,373 INFO  - X
+2024-09-30 17:43:32,129 INFO  - ****************************************************************************************
+2024-09-30 17:43:32,129 INFO  - ****************************************************************************************
+2024-09-30 17:43:32,129 INFO  - $$$$$$$$$$$$$$$$$$$$$            Create Token         $$$$$$$$$$$$$$$$$$$$$$$$$
+2024-09-30 17:43:32,129 INFO  - ****************************************************************************************
+2024-09-30 17:43:32,129 INFO  - ****************************************************************************************
+2024-09-30 17:43:32,129 INFO  - Step1 : Genereating the payload string.
+2024-09-30 17:43:32,133 INFO  - Step2 : Executing the create token API
+2024-09-30 17:43:32,138 INFO  - Request URI is - https://restful-booker.herokuapp.com/auth
+2024-09-30 17:43:32,138 INFO  - Request Payload is - {
+	"username":"admin",
+	"password":"password123"
+}
+2024-09-30 17:43:35,283 INFO  - Request Response is - {"token":"adbf9e6300721be"}
+2024-09-30 17:43:35,705 INFO  - Request Response Status Code is - 200
+2024-09-30 17:43:56,059 INFO  - ****************************************************************************************
+2024-09-30 17:43:56,059 INFO  - ****************************************************************************************
+2024-09-30 17:43:56,059 INFO  - $$$$$$$$$$$$$$$$$$$$$            Create Token         $$$$$$$$$$$$$$$$$$$$$$$$$
+2024-09-30 17:43:56,059 INFO  - ****************************************************************************************
+2024-09-30 17:43:56,060 INFO  - ****************************************************************************************
+2024-09-30 17:43:56,060 INFO  - Step1 : Genereating the payload string.
+2024-09-30 17:43:56,064 INFO  - Step2 : Executing the create token API
+2024-09-30 17:43:56,068 INFO  - Request URI is - https://restful-booker.herokuapp.com/auth
+2024-09-30 17:43:56,068 INFO  - Request Payload is - {
+	"username":"admin",
+	"password":"password123"
+}
+2024-09-30 17:43:58,787 INFO  - Request Response is - {"token":"feef153fe3c7d5e"}
+2024-09-30 17:43:59,210 INFO  - Request Response Status Code is - 200
+2024-09-30 17:43:59,212 INFO  - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2024-09-30 17:43:59,212 INFO  - XXXXXXXXXXXXXXXXXXXXXXX***********************************************XXXXXXXXXXXXXXXXXXXXXX
+2024-09-30 17:43:59,212 INFO  - XXXXXXXXXXXXXXXXXXXXXXX***********************************************XXXXXXXXXXXXXXXXXXXXXX
+2024-09-30 17:43:59,212 INFO  - X
+2024-09-30 17:43:59,212 INFO  - X
+2024-09-30 17:43:59,212 INFO  - X
+2024-09-30 17:43:59,212 INFO  - X
+2024-09-30 17:43:59,212 INFO  - X
+2024-09-30 17:45:33,956 INFO  - ****************************************************************************************
+2024-09-30 17:45:33,957 INFO  - ****************************************************************************************
+2024-09-30 17:45:33,957 INFO  - $$$$$$$$$$$$$$$$$$$$$            Create Token         $$$$$$$$$$$$$$$$$$$$$$$$$
+2024-09-30 17:45:33,957 INFO  - ****************************************************************************************
+2024-09-30 17:45:33,957 INFO  - ****************************************************************************************
+2024-09-30 17:45:33,957 INFO  - Step1 : Genereating the payload string.
+2024-09-30 17:45:33,961 INFO  - Step2 : Executing the create token API
+2024-09-30 17:45:33,964 INFO  - Request URI is - https://restful-booker.herokuapp.com/auth
+2024-09-30 17:45:33,964 INFO  - Request Payload is - {
+	"username":"admin",
+	"password":"password123"
+}
+2024-09-30 17:45:36,695 INFO  - Request Response is - {"token":"6b8a05120d66c36"}
+2024-09-30 17:45:37,100 INFO  - Request Response Status Code is - 200
+2024-09-30 17:45:37,106 INFO  - Request Response Status Message Code is - HTTP/1.1 200 OK
+2024-09-30 17:45:53,168 INFO  - ****************************************************************************************
+2024-09-30 17:45:53,169 INFO  - ****************************************************************************************
+2024-09-30 17:45:53,169 INFO  - $$$$$$$$$$$$$$$$$$$$$            Create Token         $$$$$$$$$$$$$$$$$$$$$$$$$
+2024-09-30 17:45:53,169 INFO  - ****************************************************************************************
+2024-09-30 17:45:53,169 INFO  - ****************************************************************************************
+2024-09-30 17:45:53,169 INFO  - Step1 : Genereating the payload string.
+2024-09-30 17:45:53,173 INFO  - Step2 : Executing the create token API
+2024-09-30 17:45:53,176 INFO  - Request URI is - https://restful-booker.herokuapp.com/auth
+2024-09-30 17:45:53,176 INFO  - Request Payload is - {
+	"username":"admin",
+	"password":"password123"
+}
+2024-09-30 17:45:55,939 INFO  - Request Response is - {"token":"f7ac374752969f5"}
+2024-09-30 17:45:56,368 INFO  - Request Response Status Code is - 200
+2024-09-30 17:45:56,374 INFO  - Request Response Status Message Code is - HTTP/1.1 200 OK
+2024-09-30 17:45:56,374 INFO  - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2024-09-30 17:45:56,374 INFO  - XXXXXXXXXXXXXXXXXXXXXXX***********************************************XXXXXXXXXXXXXXXXXXXXXX
+2024-09-30 17:45:56,374 INFO  - XXXXXXXXXXXXXXXXXXXXXXX***********************************************XXXXXXXXXXXXXXXXXXXXXX
+2024-09-30 17:45:56,374 INFO  - X
+2024-09-30 17:45:56,374 INFO  - X
+2024-09-30 17:45:56,374 INFO  - X
+2024-09-30 17:45:56,374 INFO  - X
+2024-09-30 17:45:56,374 INFO  - X
+2024-09-30 17:47:26,463 INFO  - ****************************************************************************************
+2024-09-30 17:47:26,463 INFO  - ****************************************************************************************
+2024-09-30 17:47:26,463 INFO  - $$$$$$$$$$$$$$$$$$$$$            Create Token         $$$$$$$$$$$$$$$$$$$$$$$$$
+2024-09-30 17:47:26,463 INFO  - ****************************************************************************************
+2024-09-30 17:47:26,463 INFO  - ****************************************************************************************
+2024-09-30 17:47:26,463 INFO  - Step1 : Genereating the payload string.
+2024-09-30 17:47:26,467 INFO  - Step2 : Executing the create token API
+2024-09-30 17:47:26,470 INFO  - Request URI is - https://restful-booker.herokuapp.com/auth
+2024-09-30 17:47:26,470 INFO  - Request Payload is - {
+	"username":"admin",
+	"password":"password123"
+}
+2024-09-30 17:47:29,453 INFO  - Request Response is - {"token":"63f9569c46171ca"}
+2024-09-30 17:47:29,886 INFO  - Request Response Status Code is - 200
+2024-09-30 17:47:29,893 INFO  - Request Response Status Message Code is - HTTP/1.1 200 OK
+2024-09-30 17:47:29,896 INFO  - Request Response Header Key is - ContentType And Value is - null
+2024-09-30 17:47:29,896 INFO  - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2024-09-30 17:47:29,896 INFO  - XXXXXXXXXXXXXXXXXXXXXXX***********************************************XXXXXXXXXXXXXXXXXXXXXX
+2024-09-30 17:47:29,896 INFO  - XXXXXXXXXXXXXXXXXXXXXXX***********************************************XXXXXXXXXXXXXXXXXXXXXX
+2024-09-30 17:47:29,896 INFO  - X
+2024-09-30 17:47:29,896 INFO  - X
+2024-09-30 17:47:29,896 INFO  - X
+2024-09-30 17:47:29,896 INFO  - X
+2024-09-30 17:47:29,896 INFO  - X
+2024-09-30 17:52:24,177 INFO  - ****************************************************************************************
+2024-09-30 17:52:24,178 INFO  - ****************************************************************************************
+2024-09-30 17:52:24,178 INFO  - $$$$$$$$$$$$$$$$$$$$$            Create Token         $$$$$$$$$$$$$$$$$$$$$$$$$
+2024-09-30 17:52:24,178 INFO  - ****************************************************************************************
+2024-09-30 17:52:24,178 INFO  - ****************************************************************************************
+2024-09-30 17:52:24,178 INFO  - Step1 : Genereating the payload string.
+2024-09-30 17:52:24,182 INFO  - Step2 : Executing the create token API
+2024-09-30 17:52:24,185 INFO  - Request URI is - https://restful-booker.herokuapp.com/auth
+2024-09-30 17:52:24,185 INFO  - Request Payload is - {
+	"username":"admin",
+	"password":"password123"
+}
+2024-09-30 17:52:27,269 INFO  - Request Response is - {"token":"e2bceeea0578f09"}
+2024-09-30 17:52:27,675 INFO  - Request Response Status Code is - 200
+2024-09-30 17:52:27,680 INFO  - Request Response Status Message Code is - HTTP/1.1 200 OK
+2024-09-30 17:52:27,683 INFO  - Request Response Header Key is - Content-Type And Value is - application/json; charset=utf-8
+2024-09-30 17:52:27,684 INFO  - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2024-09-30 17:52:27,684 INFO  - XXXXXXXXXXXXXXXXXXXXXXX***********************************************XXXXXXXXXXXXXXXXXXXXXX
+2024-09-30 17:52:27,684 INFO  - XXXXXXXXXXXXXXXXXXXXXXX***********************************************XXXXXXXXXXXXXXXXXXXXXX
+2024-09-30 17:52:27,684 INFO  - X
+2024-09-30 17:52:27,684 INFO  - X
+2024-09-30 17:52:27,684 INFO  - X
+2024-09-30 17:52:27,684 INFO  - X
+2024-09-30 17:52:27,684 INFO  - X
+2024-09-30 17:53:49,910 INFO  - ****************************************************************************************
+2024-09-30 17:53:49,910 INFO  - ****************************************************************************************
+2024-09-30 17:53:49,910 INFO  - $$$$$$$$$$$$$$$$$$$$$            Create Token         $$$$$$$$$$$$$$$$$$$$$$$$$
+2024-09-30 17:53:49,910 INFO  - ****************************************************************************************
+2024-09-30 17:53:49,911 INFO  - ****************************************************************************************
+2024-09-30 17:53:49,911 INFO  - Step1 : Genereating the payload string.
+2024-09-30 17:53:49,915 INFO  - Step2 : Executing the create token API
+2024-09-30 17:53:49,919 INFO  - Request URI is - https://restful-booker.herokuapp.com/auth
+2024-09-30 17:53:49,919 INFO  - Request Payload is - {
+	"username":"admin",
+	"password":"password123"
+}
+2024-09-30 17:53:52,688 INFO  - Request Response is - {"token":"c90fc3db5da1fe2"}
+2024-09-30 17:53:53,075 INFO  - Request Response Status Code is - 200
+2024-09-30 17:53:53,080 INFO  - Request Response Status Message Code is - HTTP/1.1 200 OK
+2024-09-30 17:53:53,083 INFO  - Request Response Header Key is - Content-Type And Value is - application/json; charset=utf-8
+2024-09-30 17:53:53,086 INFO  - Request Response Content Type is - application/json; charset=utf-8
+2024-09-30 17:53:53,090 INFO  - Request Response Execution Time is - 2012
+2024-09-30 17:53:53,091 INFO  - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2024-09-30 17:53:53,091 INFO  - XXXXXXXXXXXXXXXXXXXXXXX***********************************************XXXXXXXXXXXXXXXXXXXXXX
+2024-09-30 17:53:53,091 INFO  - XXXXXXXXXXXXXXXXXXXXXXX***********************************************XXXXXXXXXXXXXXXXXXXXXX
+2024-09-30 17:53:53,091 INFO  - X
+2024-09-30 17:53:53,091 INFO  - X
+2024-09-30 17:53:53,091 INFO  - X
+2024-09-30 17:53:53,091 INFO  - X
+2024-09-30 17:53:53,091 INFO  - X
+2024-09-30 19:47:41,759 INFO  - ****************************************************************************************
+2024-09-30 19:47:41,761 INFO  - ****************************************************************************************
+2024-09-30 19:47:41,761 INFO  - $$$$$$$$$$$$$$$$$$$$$            Create Token         $$$$$$$$$$$$$$$$$$$$$$$$$
+2024-09-30 19:47:41,761 INFO  - ****************************************************************************************
+2024-09-30 19:47:41,761 INFO  - ****************************************************************************************
+2024-09-30 19:47:41,761 INFO  - Step1 : Genereating the payload string.
+2024-09-30 19:47:41,771 INFO  - Step2 : Executing the create token API
+2024-09-30 19:47:41,780 INFO  - Request URI is - https://restful-booker.herokuapp.com/auth
+2024-09-30 19:47:41,780 INFO  - Request Payload is - {
+	"username":"admin",
+	"password":"password123"
+}
+2024-09-30 19:47:44,589 INFO  - Request Response is - {"token":"926eb87ec04076b"}
+2024-09-30 19:47:44,979 INFO  - Request Response Status Code is - 200
+2024-09-30 19:47:44,984 INFO  - Request Response Status Message Code is - HTTP/1.1 200 OK
+2024-09-30 19:47:44,987 INFO  - Request Response Header Key is - Content-Type And Value is - application/json; charset=utf-8
+2024-09-30 19:47:44,991 INFO  - Request Response Content Type is - application/json; charset=utf-8
+2024-09-30 19:47:44,994 INFO  - Request Response Execution Time is - 2065
+2024-09-30 19:47:44,994 INFO  - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2024-09-30 19:47:44,994 INFO  - XXXXXXXXXXXXXXXXXXXXXXX***********************************************XXXXXXXXXXXXXXXXXXXXXX
+2024-09-30 19:47:44,994 INFO  - XXXXXXXXXXXXXXXXXXXXXXX***********************************************XXXXXXXXXXXXXXXXXXXXXX
+2024-09-30 19:47:44,994 INFO  - X
+2024-09-30 19:47:44,994 INFO  - X
+2024-09-30 19:47:44,994 INFO  - X
+2024-09-30 19:47:44,994 INFO  - X
+2024-09-30 19:47:44,994 INFO  - X
