@@ -241,3 +241,29 @@
 2024-09-30 19:47:44,994 INFO  - X
 2024-09-30 19:47:44,994 INFO  - X
 2024-09-30 19:47:44,994 INFO  - X
+2024-10-01 10:32:30,616 INFO  - ****************************************************************************************
+2024-10-01 10:32:30,624 INFO  - ****************************************************************************************
+2024-10-01 10:32:30,624 INFO  - $$$$$$$$$$$$$$$$$$$$$            Create Token         $$$$$$$$$$$$$$$$$$$$$$$$$
+2024-10-01 10:32:30,624 INFO  - ****************************************************************************************
+2024-10-01 10:32:30,624 INFO  - ****************************************************************************************
+2024-10-01 10:32:30,624 INFO  - Step1 : Genereating the payload string.
+2024-10-01 10:32:30,629 INFO  - Step2 : Executing the create token API
+2024-10-01 10:32:30,635 INFO  - Request URI is - https://restful-booker.herokuapp.com/auth
+2024-10-01 10:32:30,635 INFO  - Request Payload is - {
+	"username":"admin",
+	"password":"password123"
+}
+2024-10-01 10:32:33,535 INFO  - Request Response is - {"token":"5cf4a25230f702b"}
+2024-10-01 10:32:33,978 INFO  - Request Response Status Code is - 200
+2024-10-01 10:32:33,993 INFO  - Request Response Status Message Code is - HTTP/1.1 200 OK
+2024-10-01 10:32:33,997 INFO  - Request Response Header Key is - Content-Type And Value is - application/json; charset=utf-8
+2024-10-01 10:32:34,000 INFO  - Request Response Content Type is - application/json; charset=utf-8
+2024-10-01 10:32:34,003 INFO  - Request Response Execution Time is - 2122
+2024-10-01 10:32:34,003 INFO  - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2024-10-01 10:32:34,003 INFO  - XXXXXXXXXXXXXXXXXXXXXXX***********************************************XXXXXXXXXXXXXXXXXXXXXX
+2024-10-01 10:32:34,003 INFO  - XXXXXXXXXXXXXXXXXXXXXXX***********************************************XXXXXXXXXXXXXXXXXXXXXX
+2024-10-01 10:32:34,003 INFO  - X
+2024-10-01 10:32:34,003 INFO  - X
+2024-10-01 10:32:34,003 INFO  - X
+2024-10-01 10:32:34,003 INFO  - X
+2024-10-01 10:32:34,003 INFO  - X

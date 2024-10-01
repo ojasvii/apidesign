@@ -12,6 +12,7 @@ import com.restapibase.BaseClass;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+import utility.Authn;
 import utility.CommonUtilFunction;
 import utility.CreateUrl;
 import utility.PayLoadGenerator;
@@ -37,6 +38,12 @@ public class CreateToken {
 		
 		String tokenResponseBody = CommonUtilFunction.getResponseKeyValue(responseString, "token");
 		System.out.println("Response body token : " + tokenResponseBody);
+		
+		//save the token in authn class
+		Authn.setToken(tokenResponseBody);
+		
+		System.out.println("After saving the token : " + Authn.getToken());
+		
 		
 		int stautsCOde = CommonUtilFunction.getStatusCode(response);
 		Assert.assertEquals(stautsCOde, 200);

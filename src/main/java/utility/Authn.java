@@ -1,11 +1,22 @@
 package utility;
 
 public class Authn {
-
-	public final static String bearer_token = "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";
-
-	public static String getBearerToken() {
-		return bearer_token;
+	
+	private static String createtoken;
+	
+	//setter method for token
+	public static void setToken(String token) {
+		createtoken = token;
 	}
+
+	
+	//getter method for getToken
+	
+	public static String getToken() {
+		return createtoken;
+	}
+	
+	
+	
 
 }
