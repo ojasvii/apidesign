@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-01T10:32:30 IST" name="Default suite" finished-at="2024-10-01T10:32:34 IST" duration-ms="3507">
+  <suite started-at="2024-10-02T20:20:14 IST" name="Suite" finished-at="2024-10-02T20:20:22 IST" duration-ms="7960">
     <groups>
     </groups>
-    <test started-at="2024-10-01T10:32:30 IST" name="Default test" finished-at="2024-10-01T10:32:34 IST" duration-ms="3507">
+    <test started-at="2024-10-02T20:20:14 IST" name="Test" finished-at="2024-10-02T20:20:22 IST" duration-ms="7960">
+      <class name="testcase.herokuapp.BookingId">
+        <test-method signature="getBookingIdAll()[pri:0, instance:testcase.herokuapp.BookingId@38afe297]" started-at="2024-10-02T20:20:18 IST" name="getBookingIdAll" finished-at="2024-10-02T20:20:19 IST" duration-ms="1459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookingIdAll -->
+        <test-method signature="getBookingIdDetailsByDate()[pri:0, instance:testcase.herokuapp.BookingId@38afe297]" started-at="2024-10-02T20:20:19 IST" name="getBookingIdDetailsByDate" finished-at="2024-10-02T20:20:21 IST" duration-ms="1496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookingIdDetailsByDate -->
+        <test-method signature="getBookingIdDetailsByName()[pri:0, instance:testcase.herokuapp.BookingId@38afe297]" started-at="2024-10-02T20:20:21 IST" name="getBookingIdDetailsByName" finished-at="2024-10-02T20:20:22 IST" duration-ms="1418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookingIdDetailsByName -->
+      </class> <!-- testcase.herokuapp.BookingId -->
       <class name="testcase.herokuapp.CreateToken">
-        <test-method signature="createToken()[pri:0, instance:testcase.herokuapp.CreateToken@3f197a46]" started-at="2024-10-01T10:32:30 IST" name="createToken" finished-at="2024-10-01T10:32:34 IST" duration-ms="3475" status="PASS">
+        <test-method signature="createToken()[pri:0, instance:testcase.herokuapp.CreateToken@61322f9d]" started-at="2024-10-02T20:20:14 IST" name="createToken" finished-at="2024-10-02T20:20:18 IST" duration-ms="3558" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createToken -->
       </class> <!-- testcase.herokuapp.CreateToken -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

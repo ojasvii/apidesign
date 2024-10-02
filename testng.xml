@@ -8,6 +8,8 @@
   <test thread-count="1" name="Test">
     <classes>
       <class name="testcase.herokuapp.CreateToken"/>
+      <class name="testcase.herokuapp.BookingId"/>
+      <class name="testcase.herokuapp.BookingByIDGet"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
