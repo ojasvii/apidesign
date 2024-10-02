@@ -68,9 +68,11 @@ public class BaseClass {
             requestSpecification.params(params);
         }
 
+        RestFWLogger.info("Request Parameters is - " + params);
         // Make the GET request
         Response response = requestSpecification.get(requestURI);
 
+        
         RestFWLogger.info("Request Response is - " + response.getBody().asString());
         return response;
     }

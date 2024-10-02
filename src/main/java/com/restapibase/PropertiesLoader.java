@@ -45,10 +45,10 @@ public class PropertiesLoader {
 
     // Get all properties as a Map
     public Map<String, String> getAllProperties() {
-        Map<String, String> map = new HashMap<>();
+        Map<String, String> allProps = new HashMap<>();
         for (String name : properties.stringPropertyNames()) {
-            map.put(name, properties.getProperty(name));
+        	allProps.put(name, properties.getProperty(name));
         }
-        return map;
+        return allProps;
     }
 }
