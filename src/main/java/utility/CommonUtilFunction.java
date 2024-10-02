@@ -14,6 +14,22 @@ public static JsonPath jsonPath;
 		return key_value;
 	}
 	
+	 // Method returns Object (you need to cast to the desired type in the calling code)
+    public static Object getResponseKeyValue1(String response_body, String response_key) {
+        JsonPath jsonPath = new JsonPath(response_body);
+        return jsonPath.get(response_key);  // Returns the value as Object
+    }
+    
+    
+    // Generic method to return the value of a key as the expected type (String, Integer, etc.)
+    public static <T> T getResponseKeyValue(String response_body, String response_key, Class<T> type) {
+        JsonPath jsonPath = new JsonPath(response_body);
+        
+        // Extract the value based on the type
+        T key_value = jsonPath.get(response_key);
+        return type.cast(key_value);  // Cast to the expected type
+    }
+	
 	public static int getStatusCode(Response response) {
 		RestFWLogger.initLogger();
 		int status_code = response.getStatusCode();

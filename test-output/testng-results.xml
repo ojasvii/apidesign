@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-02T21:08:23 IST" name="Default suite" finished-at="2024-10-02T21:08:25 IST" duration-ms="2853">
+  <suite started-at="2024-10-02T23:41:30 IST" name="Default suite" finished-at="2024-10-02T23:41:33 IST" duration-ms="3372">
     <groups>
     </groups>
-    <test started-at="2024-10-02T21:08:23 IST" name="Default test" finished-at="2024-10-02T21:08:25 IST" duration-ms="2853">
-      <class name="testcase.herokuapp.GetSingleBooking">
-        <test-method signature="getSingleBoooking()[pri:0, instance:testcase.herokuapp.GetSingleBooking@3f197a46]" started-at="2024-10-02T21:08:23 IST" name="getSingleBoooking" finished-at="2024-10-02T21:08:25 IST" duration-ms="2823" status="PASS">
+    <test started-at="2024-10-02T23:41:30 IST" name="Default test" finished-at="2024-10-02T23:41:33 IST" duration-ms="3372">
+      <class name="testcase.herokuapp.CreateBooking">
+        <test-method signature="createBooking()[pri:0, instance:testcase.herokuapp.CreateBooking@3f197a46]" started-at="2024-10-02T23:41:30 IST" name="createBooking" finished-at="2024-10-02T23:41:33 IST" duration-ms="3342" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getSingleBoooking -->
-      </class> <!-- testcase.herokuapp.GetSingleBooking -->
+        </test-method> <!-- createBooking -->
+      </class> <!-- testcase.herokuapp.CreateBooking -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -61,3 +61,92 @@
 2024-10-02 21:08:23,250 INFO  - Request URI is - https://restful-booker.herokuapp.com/booking/1
 2024-10-02 21:08:23,830 INFO  - Request Payload is - null
 2024-10-02 21:08:25,981 INFO  - Request Response is - {"firstname":"Mark","lastname":"Brown","totalprice":124,"depositpaid":true,"bookingdates":{"checkin":"2017-10-01","checkout":"2024-04-04"}}
+2024-10-02 23:20:36,027 INFO  - Request URI is - https://restful-booker.herokuapp.com/booking
+2024-10-02 23:20:36,027 INFO  - Request Payload is - {
+	"firstname":"ojasvii",
+	"lastname":"singh",
+	"totalprice":9000,
+	"depositpaid":true,
+	"bookingdates":{
+			"checkin":"",
+			"checkout":""	
+	},
+	"additionalneeds":"Lunch"
+	
+}
+2024-10-02 23:20:38,976 INFO  - Request Response is - {"bookingid":369,"booking":{"firstname":"ojasvii","lastname":"singh","totalprice":9000,"depositpaid":true,"bookingdates":{"checkin":"0NaN-aN-aN","checkout":"0NaN-aN-aN"},"additionalneeds":"Lunch"}}
+2024-10-02 23:24:22,614 INFO  - Request URI is - https://restful-booker.herokuapp.com/booking
+2024-10-02 23:24:22,615 INFO  - Request Payload is - {
+	"firstname":"ojasvii",
+	"lastname":"singh",
+	"totalprice":9000,
+	"depositpaid":true,
+	"bookingdates":{
+			"checkin":"2024-10-01",
+			"checkout":"2024-10-05"	
+	},
+	"additionalneeds":"Lunch"
+	
+}
+2024-10-02 23:24:25,379 INFO  - Request Response is - {"bookingid":2307,"booking":{"firstname":"ojasvii","lastname":"singh","totalprice":9000,"depositpaid":true,"bookingdates":{"checkin":"2024-10-01","checkout":"2024-10-05"},"additionalneeds":"Lunch"}}
+2024-10-02 23:24:25,384 INFO  - Request Response Status Code is - 200
+2024-10-02 23:25:51,107 INFO  - Request URI is - https://restful-booker.herokuapp.com/booking
+2024-10-02 23:25:51,108 INFO  - Request Payload is - {
+	"firstname":"ojasvii",
+	"lastname":"singh",
+	"totalprice":9000,
+	"depositpaid":true,
+	"bookingdates":{
+			"checkin":"2024-10-01",
+			"checkout":"2024-10-05"	
+	},
+	"additionalneeds":"Lunch"
+	
+}
+2024-10-02 23:25:53,843 INFO  - Request Response is - {"bookingid":3059,"booking":{"firstname":"ojasvii","lastname":"singh","totalprice":9000,"depositpaid":true,"bookingdates":{"checkin":"2024-10-01","checkout":"2024-10-05"},"additionalneeds":"Lunch"}}
+2024-10-02 23:25:53,849 INFO  - Request Response Status Code is - 200
+2024-10-02 23:28:38,488 INFO  - Request URI is - https://restful-booker.herokuapp.com/booking
+2024-10-02 23:28:38,488 INFO  - Request Payload is - {
+	"firstname":"ojasvii",
+	"lastname":"singh",
+	"totalprice":9000,
+	"depositpaid":true,
+	"bookingdates":{
+			"checkin":"2024-10-01",
+			"checkout":"2024-10-05"	
+	},
+	"additionalneeds":"Lunch"
+	
+}
+2024-10-02 23:28:41,380 INFO  - Request Response is - {"bookingid":4476,"booking":{"firstname":"ojasvii","lastname":"singh","totalprice":9000,"depositpaid":true,"bookingdates":{"checkin":"2024-10-01","checkout":"2024-10-05"},"additionalneeds":"Lunch"}}
+2024-10-02 23:28:41,384 INFO  - Request Response Status Code is - 200
+2024-10-02 23:37:00,053 INFO  - Request URI is - https://restful-booker.herokuapp.com/booking
+2024-10-02 23:37:00,054 INFO  - Request Payload is - {
+	"firstname":"ojasvii",
+	"lastname":"singh",
+	"totalprice":9000,
+	"depositpaid":true,
+	"bookingdates":{
+			"checkin":"2024-10-01",
+			"checkout":"2024-10-05"	
+	},
+	"additionalneeds":"Lunch"
+	
+}
+2024-10-02 23:37:02,929 INFO  - Request Response is - {"bookingid":3348,"booking":{"firstname":"ojasvii","lastname":"singh","totalprice":9000,"depositpaid":true,"bookingdates":{"checkin":"2024-10-01","checkout":"2024-10-05"},"additionalneeds":"Lunch"}}
+2024-10-02 23:37:02,934 INFO  - Request Response Status Code is - 200
+2024-10-02 23:41:30,173 INFO  - Request URI is - https://restful-booker.herokuapp.com/booking
+2024-10-02 23:41:30,174 INFO  - Request Payload is - {
+	"firstname":"ojasvii",
+	"lastname":"singh",
+	"totalprice":9000,
+	"depositpaid":true,
+	"bookingdates":{
+			"checkin":"2024-10-01",
+			"checkout":"2024-10-05"	
+	},
+	"additionalneeds":"Lunch"
+	
+}
+2024-10-02 23:41:33,049 INFO  - Request Response is - {"bookingid":821,"booking":{"firstname":"ojasvii","lastname":"singh","totalprice":9000,"depositpaid":true,"bookingdates":{"checkin":"2024-10-01","checkout":"2024-10-05"},"additionalneeds":"Lunch"}}
+2024-10-02 23:41:33,055 INFO  - Request Response Status Code is - 200

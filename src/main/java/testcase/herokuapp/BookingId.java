@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 import org.testng.annotations.Test;
-
+import utility.CreateUrl;
 import com.aventstack.extentreports.gherkin.model.Given;
 import com.restapibase.BaseClass;
 import com.restapibase.Config;
@@ -17,7 +17,7 @@ import utility.RestFWLogger;
 
 public class BookingId {
 	
-	String endpoint = utility.CreateUrl.getBaseURI("/booking");
+	String endpoint = CreateUrl.getBaseURI("/booking");
 	
 	Response response;
 	
