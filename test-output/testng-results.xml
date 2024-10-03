@@ -1,17 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-02T23:41:30 IST" name="Default suite" finished-at="2024-10-02T23:41:33 IST" duration-ms="3372">
+  <suite started-at="2024-10-03T14:16:06 IST" name="Suite" finished-at="2024-10-03T14:16:18 IST" duration-ms="11491">
     <groups>
     </groups>
-    <test started-at="2024-10-02T23:41:30 IST" name="Default test" finished-at="2024-10-02T23:41:33 IST" duration-ms="3372">
+    <test started-at="2024-10-03T14:16:06 IST" name="Test" finished-at="2024-10-03T14:16:18 IST" duration-ms="11491">
+      <class name="testcase.herokuapp.GetSingleBooking">
+        <test-method signature="getSingleBoooking()[pri:0, instance:testcase.herokuapp.GetSingleBooking@7c9d8e2]" started-at="2024-10-03T14:16:11 IST" name="getSingleBoooking" finished-at="2024-10-03T14:16:12 IST" duration-ms="1258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleBoooking -->
+      </class> <!-- testcase.herokuapp.GetSingleBooking -->
+      <class name="testcase.herokuapp.BookingId">
+        <test-method signature="getBookingIdAll()[pri:0, instance:testcase.herokuapp.BookingId@20d525]" started-at="2024-10-03T14:16:12 IST" name="getBookingIdAll" finished-at="2024-10-03T14:16:14 IST" duration-ms="1503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookingIdAll -->
+        <test-method signature="getBookingIdDetailsByName()[pri:1, instance:testcase.herokuapp.BookingId@20d525]" started-at="2024-10-03T14:16:14 IST" name="getBookingIdDetailsByName" finished-at="2024-10-03T14:16:15 IST" duration-ms="1375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookingIdDetailsByName -->
+        <test-method signature="getBookingIdDetailsByDate()[pri:2, instance:testcase.herokuapp.BookingId@20d525]" started-at="2024-10-03T14:16:15 IST" name="getBookingIdDetailsByDate" finished-at="2024-10-03T14:16:17 IST" duration-ms="1514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookingIdDetailsByDate -->
+      </class> <!-- testcase.herokuapp.BookingId -->
       <class name="testcase.herokuapp.CreateBooking">
-        <test-method signature="createBooking()[pri:0, instance:testcase.herokuapp.CreateBooking@3f197a46]" started-at="2024-10-02T23:41:30 IST" name="createBooking" finished-at="2024-10-02T23:41:33 IST" duration-ms="3342" status="PASS">
+        <test-method signature="createBooking()[pri:0, instance:testcase.herokuapp.CreateBooking@37ceb1df]" started-at="2024-10-03T14:16:09 IST" name="createBooking" finished-at="2024-10-03T14:16:11 IST" duration-ms="1378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createBooking -->
       </class> <!-- testcase.herokuapp.CreateBooking -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="testcase.herokuapp.UpdateBooking">
+        <test-method signature="updateBooking()[pri:0, instance:testcase.herokuapp.UpdateBooking@6200f9cb]" started-at="2024-10-03T14:16:17 IST" name="updateBooking" finished-at="2024-10-03T14:16:18 IST" duration-ms="1377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBooking -->
+      </class> <!-- testcase.herokuapp.UpdateBooking -->
+      <class name="testcase.herokuapp.CreateToken">
+        <test-method signature="createToken()[pri:0, instance:testcase.herokuapp.CreateToken@8297b3a]" started-at="2024-10-03T14:16:06 IST" name="createToken" finished-at="2024-10-03T14:16:09 IST" duration-ms="3050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createToken -->
+      </class> <!-- testcase.herokuapp.CreateToken -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

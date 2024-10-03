@@ -4,6 +4,7 @@ import utility.Authn;
 import utility.CommonUtilFunction;
 import utility.CreateUrl;
 import utility.PayLoadGenerator;
+import utility.RestFWLogger;
 
 import java.io.IOException;
 
@@ -21,6 +22,10 @@ public class CreateBooking {
 	@Test
 	public void createBooking() throws IOException {
 		
+		RestFWLogger.initLogger();
+		
+		RestFWLogger.startTestCase("Create Booking");
+		
 		String createbooking = PayLoadGenerator.generateStringPayload("createbooking.json");
 		
 		response = BaseClass.postRequest(endpoint, createbooking);
@@ -34,7 +39,10 @@ public class CreateBooking {
 		
 		Authn.setBookingId(newbookingId);
 		
-		System.out.println("Booking id after saving :" + Authn.getBookingId());
+		RestFWLogger.info("Booking id after saving: " + Authn.getBookingId());
+		
+		RestFWLogger.endTestCase();
+		
 	}
 	
 

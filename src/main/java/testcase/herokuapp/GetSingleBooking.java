@@ -11,6 +11,7 @@ import com.restapibase.Config;
 import com.restapibase.PropertiesLoader;
 
 import io.restassured.response.Response;
+import utility.Authn;
 import utility.RestFWLogger;
 
 public class GetSingleBooking {
@@ -33,9 +34,19 @@ public class GetSingleBooking {
 		// Extract 'id' from the map
 		String id = paramId.get("id");
 
-		// Ensure that 'id' exists
-		if (id != null && !id.isEmpty()) {
-			String completeendpoint = endpoint + "/" + id;
+		// Ensure that 'id' exists in file
+//		if (id != null && !id.isEmpty()) {
+//			String completeendpoint = endpoint + "/" + id;
+//			BaseClass.getRequest(completeendpoint, null);
+//		} else {
+//			RestFWLogger.error("ID not found in properties.");
+//		}
+		
+		
+//		Id save from the request body and fetching from the authn class
+		
+		if (Authn.getBookingId() != null) {
+			String completeendpoint = endpoint + "/" + Authn.getBookingId();
 			BaseClass.getRequest(completeendpoint, null);
 		} else {
 			RestFWLogger.error("ID not found in properties.");

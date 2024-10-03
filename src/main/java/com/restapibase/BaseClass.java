@@ -13,6 +13,7 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import utility.Authn;
 import utility.RestFWLogger;
 
 public class BaseClass {
@@ -121,6 +122,18 @@ public class BaseClass {
 			RestFWLogger.info("Request Payload is - " + requestPayLoad);
 			RequestSpecification requestSpecification = RestAssured.given().body(requestPayLoad);
 			requestSpecification.contentType(ContentType.JSON);
+			Response response = requestSpecification.put(requestURI);
+			RestFWLogger.info("Request Response is - " + response.getBody().asString());
+			return response;
+		}
+		
+		public static Response putRequest(String requestURI, String requestPayLoad, String token) {
+			RestFWLogger.initLogger();
+			RestFWLogger.info("Request URI is - " + requestURI);
+			RestFWLogger.info("Request Payload is - " + requestPayLoad);
+			RequestSpecification requestSpecification = RestAssured.given().body(requestPayLoad);
+			requestSpecification.contentType(ContentType.JSON);
+			requestSpecification.header("Cookie", "token" + "=" + token);
 			Response response = requestSpecification.put(requestURI);
 			RestFWLogger.info("Request Response is - " + response.getBody().asString());
 			return response;

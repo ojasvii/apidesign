@@ -21,7 +21,7 @@ public class BookingId {
 	
 	Response response;
 	
-	@Test
+	@Test(priority=0)
 	public void getBookingIdAll() {
 		
 		RestFWLogger.initLogger();
@@ -34,7 +34,7 @@ public class BookingId {
 	}
 	
 	
-	@Test
+	@Test(priority=1)
 	public void getBookingIdDetailsByName() {
 		
 		RestFWLogger.initLogger();
@@ -71,7 +71,7 @@ public class BookingId {
 	}
 	
 	
-	@Test
+	@Test(priority=2)
 	public void getBookingIdDetailsByDate() {
 		
 		RestFWLogger.initLogger();

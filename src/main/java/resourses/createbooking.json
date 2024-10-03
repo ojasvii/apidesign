@@ -1,11 +1,11 @@
 {
-	"firstname":"ojasvii",
+	"firstname":"shubham",
 	"lastname":"singh",
 	"totalprice":9000,
 	"depositpaid":true,
 	"bookingdates":{
-			"checkin":"2024-10-01",
-			"checkout":"2024-10-05"	
+			"checkin":"2024-10-10",
+			"checkout":"2024-10-10"	
 	},
 	"additionalneeds":"Lunch"
 	
