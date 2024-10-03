@@ -1,49 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-03T14:16:06 IST" name="Suite" finished-at="2024-10-03T14:16:18 IST" duration-ms="11491">
+  <suite started-at="2024-10-03T16:42:47 IST" name="Suite" finished-at="2024-10-03T16:43:00 IST" duration-ms="13468">
     <groups>
     </groups>
-    <test started-at="2024-10-03T14:16:06 IST" name="Test" finished-at="2024-10-03T14:16:18 IST" duration-ms="11491">
+    <test started-at="2024-10-03T16:42:47 IST" name="Test" finished-at="2024-10-03T16:43:00 IST" duration-ms="13468">
       <class name="testcase.herokuapp.GetSingleBooking">
-        <test-method signature="getSingleBoooking()[pri:0, instance:testcase.herokuapp.GetSingleBooking@7c9d8e2]" started-at="2024-10-03T14:16:11 IST" name="getSingleBoooking" finished-at="2024-10-03T14:16:12 IST" duration-ms="1258" status="PASS">
+        <test-method signature="getSingleBoooking()[pri:0, instance:testcase.herokuapp.GetSingleBooking@ae13544]" started-at="2024-10-03T16:42:51 IST" name="getSingleBoooking" finished-at="2024-10-03T16:42:52 IST" duration-ms="1247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSingleBoooking -->
       </class> <!-- testcase.herokuapp.GetSingleBooking -->
       <class name="testcase.herokuapp.BookingId">
-        <test-method signature="getBookingIdAll()[pri:0, instance:testcase.herokuapp.BookingId@20d525]" started-at="2024-10-03T14:16:12 IST" name="getBookingIdAll" finished-at="2024-10-03T14:16:14 IST" duration-ms="1503" status="PASS">
+        <test-method signature="getBookingIdAll()[pri:0, instance:testcase.herokuapp.BookingId@3d34d211]" started-at="2024-10-03T16:42:52 IST" name="getBookingIdAll" finished-at="2024-10-03T16:42:54 IST" duration-ms="1617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getBookingIdAll -->
-        <test-method signature="getBookingIdDetailsByName()[pri:1, instance:testcase.herokuapp.BookingId@20d525]" started-at="2024-10-03T14:16:14 IST" name="getBookingIdDetailsByName" finished-at="2024-10-03T14:16:15 IST" duration-ms="1375" status="PASS">
+        <test-method signature="getBookingIdDetailsByName()[pri:1, instance:testcase.herokuapp.BookingId@3d34d211]" started-at="2024-10-03T16:42:54 IST" name="getBookingIdDetailsByName" finished-at="2024-10-03T16:42:55 IST" duration-ms="1246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getBookingIdDetailsByName -->
-        <test-method signature="getBookingIdDetailsByDate()[pri:2, instance:testcase.herokuapp.BookingId@20d525]" started-at="2024-10-03T14:16:15 IST" name="getBookingIdDetailsByDate" finished-at="2024-10-03T14:16:17 IST" duration-ms="1514" status="PASS">
+        <test-method signature="getBookingIdDetailsByDate()[pri:2, instance:testcase.herokuapp.BookingId@3d34d211]" started-at="2024-10-03T16:42:55 IST" name="getBookingIdDetailsByDate" finished-at="2024-10-03T16:42:56 IST" duration-ms="1322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getBookingIdDetailsByDate -->
       </class> <!-- testcase.herokuapp.BookingId -->
+      <class name="testcase.herokuapp.PartialUpdateBooking">
+        <test-method signature="partialUpdate()[pri:0, instance:testcase.herokuapp.PartialUpdateBooking@587e5365]" started-at="2024-10-03T16:42:58 IST" name="partialUpdate" finished-at="2024-10-03T16:42:59 IST" duration-ms="1276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partialUpdate -->
+      </class> <!-- testcase.herokuapp.PartialUpdateBooking -->
       <class name="testcase.herokuapp.CreateBooking">
-        <test-method signature="createBooking()[pri:0, instance:testcase.herokuapp.CreateBooking@37ceb1df]" started-at="2024-10-03T14:16:09 IST" name="createBooking" finished-at="2024-10-03T14:16:11 IST" duration-ms="1378" status="PASS">
+        <test-method signature="createBooking()[pri:0, instance:testcase.herokuapp.CreateBooking@6f4a47c7]" started-at="2024-10-03T16:42:50 IST" name="createBooking" finished-at="2024-10-03T16:42:51 IST" duration-ms="1328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createBooking -->
       </class> <!-- testcase.herokuapp.CreateBooking -->
       <class name="testcase.herokuapp.UpdateBooking">
-        <test-method signature="updateBooking()[pri:0, instance:testcase.herokuapp.UpdateBooking@6200f9cb]" started-at="2024-10-03T14:16:17 IST" name="updateBooking" finished-at="2024-10-03T14:16:18 IST" duration-ms="1377" status="PASS">
+        <test-method signature="updateBooking()[pri:0, instance:testcase.herokuapp.UpdateBooking@7dc0f706]" started-at="2024-10-03T16:42:56 IST" name="updateBooking" finished-at="2024-10-03T16:42:58 IST" duration-ms="1262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateBooking -->
       </class> <!-- testcase.herokuapp.UpdateBooking -->
       <class name="testcase.herokuapp.CreateToken">
-        <test-method signature="createToken()[pri:0, instance:testcase.herokuapp.CreateToken@8297b3a]" started-at="2024-10-03T14:16:06 IST" name="createToken" finished-at="2024-10-03T14:16:09 IST" duration-ms="3050" status="PASS">
+        <test-method signature="createToken()[pri:0, instance:testcase.herokuapp.CreateToken@544fa968]" started-at="2024-10-03T16:42:47 IST" name="createToken" finished-at="2024-10-03T16:42:50 IST" duration-ms="2953" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createToken -->
       </class> <!-- testcase.herokuapp.CreateToken -->
+      <class name="testcase.herokuapp.DeleteBooking">
+        <test-method signature="deleteBooking()[pri:0, instance:testcase.herokuapp.DeleteBooking@22fcf7ab]" started-at="2024-10-03T16:42:59 IST" name="deleteBooking" finished-at="2024-10-03T16:43:00 IST" duration-ms="1179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBooking -->
+      </class> <!-- testcase.herokuapp.DeleteBooking -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

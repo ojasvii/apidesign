@@ -12,6 +12,8 @@
       <class name="testcase.herokuapp.GetSingleBooking"/>
       <class name="testcase.herokuapp.BookingId"/>
       <class name="testcase.herokuapp.UpdateBooking"/>
+      <class name="testcase.herokuapp.PartialUpdateBooking"/>
+      <class name="testcase.herokuapp.DeleteBooking"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -138,6 +138,18 @@ public class BaseClass {
 			RestFWLogger.info("Request Response is - " + response.getBody().asString());
 			return response;
 		}
+		
+		public static Response patchRequest(String requestURI, String requestPayLoad, String token) {
+			RestFWLogger.initLogger();
+			RestFWLogger.info("Request URI is - " + requestURI);
+			RestFWLogger.info("Request Payload is - " + requestPayLoad);
+			RequestSpecification requestSpecification = RestAssured.given().body(requestPayLoad);
+			requestSpecification.contentType(ContentType.JSON);
+			requestSpecification.header("Cookie", "token" + "=" + token);
+			Response response = requestSpecification.patch(requestURI);
+			RestFWLogger.info("Request Response is - " + response.getBody().asString());
+			return response;
+		}
 
 		public static Response deleteRequest(String requestURI) {
 			RestFWLogger.initLogger();
@@ -149,13 +161,13 @@ public class BaseClass {
 			return response;
 		}
 		
-		public static Response deleteRequest(String requestURI, String bearer_token) {
+		public static Response deleteRequest(String requestURI, String token) {
 			RestFWLogger.initLogger();
 			RestFWLogger.info("Request URI is - " + requestURI);
 			RequestSpecification requestSpecification = RestAssured.given();
 			requestSpecification.contentType(ContentType.JSON);
 			requestSpecification.header("Content-Type", "application/json");
-			requestSpecification.header("Authorization", "Bearer " + bearer_token);
+			requestSpecification.header("Cookie", "token" + "=" + token);
 			Response response = requestSpecification.delete(requestURI);
 			RestFWLogger.info("Request Response Status Code is - " + response.getStatusCode());
 			return response;

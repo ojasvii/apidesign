@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods,   7 passed</span>
+                    <span class="method-stats">9 methods,   9 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -114,6 +114,11 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcase.herokuapp.DeleteBooking" class="method navigator-link" hash-for-method="deleteBooking">deleteBooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testcase.herokuapp.BookingId" class="method navigator-link" hash-for-method="getBookingIdAll">getBookingIdAll</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -130,6 +135,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testcase.herokuapp.GetSingleBooking" class="method navigator-link" hash-for-method="getSingleBoooking">getSingleBoooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcase.herokuapp.PartialUpdateBooking" class="method navigator-link" hash-for-method="partialUpdate">partialUpdate</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -167,6 +177,21 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">testcase.herokuapp.CreateBooking</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createBooking">
+                  </a> <!-- createBooking -->
+                  <span class="method-name">createBooking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">testcase.herokuapp.UpdateBooking</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -182,14 +207,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testcase.herokuapp.CreateBooking</span>
+              <span class="class-name">testcase.herokuapp.DeleteBooking</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="createBooking">
-                  </a> <!-- createBooking -->
-                  <span class="method-name">createBooking</span>
+                  <a name="deleteBooking">
+                  </a> <!-- deleteBooking -->
+                  <span class="method-name">deleteBooking</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -238,6 +263,21 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcase.herokuapp.PartialUpdateBooking</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="partialUpdate">
+                  </a> <!-- partialUpdate -->
+                  <span class="method-name">partialUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -258,6 +298,8 @@
       &lt;class name=&quot;testcase.herokuapp.GetSingleBooking&quot;/&gt;
       &lt;class name=&quot;testcase.herokuapp.BookingId&quot;/&gt;
       &lt;class name=&quot;testcase.herokuapp.UpdateBooking&quot;/&gt;
+      &lt;class name=&quot;testcase.herokuapp.PartialUpdateBooking&quot;/&gt;
+      &lt;class name=&quot;testcase.herokuapp.DeleteBooking&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -271,7 +313,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (5 classes)</span>
+                <span class="test-name">Test (7 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -297,40 +339,48 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(7);
+data.addRows(9);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'createToken')
 data.setCell(0, 2, 'testcase.herokuapp.CreateToken')
-data.setCell(0, 3, 3050);
+data.setCell(0, 3, 2953);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'getBookingIdDetailsByDate')
+data.setCell(1, 1, 'getBookingIdAll')
 data.setCell(1, 2, 'testcase.herokuapp.BookingId')
-data.setCell(1, 3, 1514);
+data.setCell(1, 3, 1617);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'getBookingIdAll')
-data.setCell(2, 2, 'testcase.herokuapp.BookingId')
-data.setCell(2, 3, 1503);
+data.setCell(2, 1, 'createBooking')
+data.setCell(2, 2, 'testcase.herokuapp.CreateBooking')
+data.setCell(2, 3, 1328);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'createBooking')
-data.setCell(3, 2, 'testcase.herokuapp.CreateBooking')
-data.setCell(3, 3, 1378);
+data.setCell(3, 1, 'getBookingIdDetailsByDate')
+data.setCell(3, 2, 'testcase.herokuapp.BookingId')
+data.setCell(3, 3, 1322);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'updateBooking')
-data.setCell(4, 2, 'testcase.herokuapp.UpdateBooking')
-data.setCell(4, 3, 1377);
+data.setCell(4, 1, 'partialUpdate')
+data.setCell(4, 2, 'testcase.herokuapp.PartialUpdateBooking')
+data.setCell(4, 3, 1276);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'getBookingIdDetailsByName')
-data.setCell(5, 2, 'testcase.herokuapp.BookingId')
-data.setCell(5, 3, 1375);
+data.setCell(5, 1, 'updateBooking')
+data.setCell(5, 2, 'testcase.herokuapp.UpdateBooking')
+data.setCell(5, 3, 1262);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'getSingleBoooking')
 data.setCell(6, 2, 'testcase.herokuapp.GetSingleBooking')
-data.setCell(6, 3, 1258);
+data.setCell(6, 3, 1247);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getBookingIdDetailsByName')
+data.setCell(7, 2, 'testcase.herokuapp.BookingId')
+data.setCell(7, 3, 1246);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'deleteBooking')
+data.setCell(8, 2, 'testcase.herokuapp.DeleteBooking')
+data.setCell(8, 3, 1179);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -366,36 +416,50 @@ return data;
               <div class="chronological-class-name">testcase.herokuapp.CreateBooking</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">createBooking</span>
-                <span class="method-start">3053 ms</span>
+                <span class="method-start">2956 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcase.herokuapp.GetSingleBooking</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">getSingleBoooking</span>
-                <span class="method-start">4432 ms</span>
+                <span class="method-start">4285 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcase.herokuapp.BookingId</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">getBookingIdAll</span>
-                <span class="method-start">5692 ms</span>
+                <span class="method-start">5534 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getBookingIdDetailsByName</span>
-                <span class="method-start">7196 ms</span>
+                <span class="method-start">7153 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getBookingIdDetailsByDate</span>
-                <span class="method-start">8573 ms</span>
+                <span class="method-start">8401 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcase.herokuapp.UpdateBooking</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">updateBooking</span>
-                <span class="method-start">10090 ms</span>
+                <span class="method-start">9726 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcase.herokuapp.PartialUpdateBooking</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">partialUpdate</span>
+                <span class="method-start">10989 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcase.herokuapp.DeleteBooking</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">deleteBooking</span>
+                <span class="method-start">12267 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
