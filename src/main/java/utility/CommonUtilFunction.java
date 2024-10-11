@@ -1,12 +1,17 @@
 package utility;
 
+import org.testng.asserts.SoftAssert;
+
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
 public class CommonUtilFunction {
 	
 public static JsonPath jsonPath;
-	
+
+
+
+
 	public static String getResponseKeyValue(String response_body, String response_key) {
 		
 		jsonPath = new JsonPath(response_body);
@@ -15,8 +20,9 @@ public static JsonPath jsonPath;
 	}
 	
 	 // Method returns Object (you need to cast to the desired type in the calling code)
-    public static Object getResponseKeyValue1(String response_body, String response_key) {
+    public static Object getResponseKeyValueCast(String response_body, String response_key) {
         JsonPath jsonPath = new JsonPath(response_body);
+        RestFWLogger.info("Request Response of " + response_key + " is - " + jsonPath.get(response_key));
         return jsonPath.get(response_key);  // Returns the value as Object
     }
     

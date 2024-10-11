@@ -34,7 +34,7 @@ public class CreateBooking {
 		
 		CommonUtilFunction.getStatusCode(response);
 		
-		Integer newbookingId = (Integer) CommonUtilFunction.getResponseKeyValue1(responseBody, "bookingid");
+		Integer newbookingId = (Integer) CommonUtilFunction.getResponseKeyValueCast(responseBody, "bookingid");
 		System.out.println("New Booking Id : " + newbookingId);
 		
 		Authn.setBookingId(newbookingId);

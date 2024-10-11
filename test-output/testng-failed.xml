@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcase.herokuapp.UpdateBooking">
+      <class name="testcase.swagger.Pet">
         <methods>
-          <include name="updateBooking"/>
+          <include name="petUploadWithoutFile"/>
         </methods>
-      </class> <!-- testcase.herokuapp.UpdateBooking -->
+      </class> <!-- testcase.swagger.Pet -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
