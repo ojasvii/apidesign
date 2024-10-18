@@ -35,9 +35,12 @@ public class ListUsers {
 //		Converting the sting to the json Object
 		JSONObject jsonResponse = new JSONObject(jsonData);
 		
+		
+//		Using the response variable
 		boolean hasPageKey = response.jsonPath().getMap("").containsKey("page");
 		softAssert.assertTrue(hasPageKey, "The page key doesnot exists. ");
 		
+//		Using the jsonResponse when converted to jsonObject
 		if(jsonResponse.has("per_pages")) {
 			RestFWLogger.info("API response has key  per_page");
 		}else {
