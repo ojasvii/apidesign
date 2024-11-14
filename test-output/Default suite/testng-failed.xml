@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcase.swagger.PetId">
+      <class name="testcase.swagger.UpdatePet">
         <methods>
-          <include name="validId"/>
+          <include name="updatePet"/>
         </methods>
-      </class> <!-- testcase.swagger.PetId -->
+      </class> <!-- testcase.swagger.UpdatePet -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
