@@ -11,7 +11,7 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
-public class Pet {
+public class PetUploadImage {
 	
 	String endpoint = "https://petstore.swagger.io/v2";
 	File file = new File("D:\\JG_PROJ\\RestAssured_Design\\download (1).jpg");

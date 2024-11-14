@@ -978,3 +978,50 @@
 2024-10-11 14:14:06,903 INFO  - ****************************************************************************************
 2024-10-11 14:14:06,905 INFO  - Request URI is - https://reqres.in/api/users?page=2
 2024-10-11 14:14:07,073 INFO  - Request Response is - {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2024-10-18 11:44:42,061 INFO  - ****************************************************************************************
+2024-10-18 11:44:42,061 INFO  - ****************************************************************************************
+2024-10-18 11:44:42,061 INFO  - $$$$$$$$$$$$$$$$$$$$$            verify the key exists in api.         $$$$$$$$$$$$$$$$$$$$$$$$$
+2024-10-18 11:44:42,061 INFO  - ****************************************************************************************
+2024-10-18 11:44:42,062 INFO  - ****************************************************************************************
+2024-10-18 11:44:42,067 INFO  - Request URI is - https://reqres.in/api/users?page=2
+2024-10-18 11:44:43,809 INFO  - Request Response is - {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2024-10-18 11:44:43,965 ERROR - API response doesnot have key per_page
+2024-10-18 11:44:43,966 INFO  - API response has key  data
+2024-10-18 11:44:43,966 INFO  - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2024-10-18 11:44:43,966 INFO  - XXXXXXXXXXXXXXXXXXXXXXX***********************************************XXXXXXXXXXXXXXXXXXXXXX
+2024-10-18 11:44:43,966 INFO  - XXXXXXXXXXXXXXXXXXXXXXX***********************************************XXXXXXXXXXXXXXXXXXXXXX
+2024-10-18 11:44:43,966 INFO  - X
+2024-10-18 11:44:43,966 INFO  - X
+2024-10-18 11:44:43,966 INFO  - X
+2024-10-18 11:44:43,967 INFO  - X
+2024-10-18 11:44:43,967 INFO  - X
+2024-10-18 11:44:43,979 INFO  - ****************************************************************************************
+2024-10-18 11:44:43,979 INFO  - ****************************************************************************************
+2024-10-18 11:44:43,979 INFO  - $$$$$$$$$$$$$$$$$$$$$            Getting the list of users from page         $$$$$$$$$$$$$$$$$$$$$$$$$
+2024-10-18 11:44:43,979 INFO  - ****************************************************************************************
+2024-10-18 11:44:43,979 INFO  - ****************************************************************************************
+2024-10-18 11:44:43,984 INFO  - Request URI is - https://reqres.in/api/users?page=2
+2024-10-18 11:44:44,079 INFO  - Request Response is - {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2024-10-18 11:44:44,090 INFO  - Request Response Status Code is - 200
+2024-10-18 11:44:44,093 INFO  - Request Response Header Key is - Content-Type And Value is - application/json; charset=utf-8
+2024-10-18 11:44:44,500 INFO  - Request Response of page is - 2
+2024-10-18 11:44:44,540 INFO  - Request Response of per_page is - 6
+2024-10-18 11:44:44,567 INFO  - Request Response of total is - 12
+2024-10-18 11:44:44,591 INFO  - Request Response of total_pages is - 2
+2024-10-18 11:44:44,615 INFO  - Request Response of data is - [{id=7, email=michael.lawson@reqres.in, first_name=Michael, last_name=Lawson, avatar=https://reqres.in/img/faces/7-image.jpg}, {id=8, email=lindsay.ferguson@reqres.in, first_name=Lindsay, last_name=Ferguson, avatar=https://reqres.in/img/faces/8-image.jpg}, {id=9, email=tobias.funke@reqres.in, first_name=Tobias, last_name=Funke, avatar=https://reqres.in/img/faces/9-image.jpg}, {id=10, email=byron.fields@reqres.in, first_name=Byron, last_name=Fields, avatar=https://reqres.in/img/faces/10-image.jpg}, {id=11, email=george.edwards@reqres.in, first_name=George, last_name=Edwards, avatar=https://reqres.in/img/faces/11-image.jpg}, {id=12, email=rachel.howell@reqres.in, first_name=Rachel, last_name=Howell, avatar=https://reqres.in/img/faces/12-image.jpg}]
+2024-10-18 11:44:44,629 INFO  - Length of data : 6
+2024-10-18 11:44:44,629 INFO  - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2024-10-18 11:44:44,629 INFO  - XXXXXXXXXXXXXXXXXXXXXXX***********************************************XXXXXXXXXXXXXXXXXXXXXX
+2024-10-18 11:44:44,629 INFO  - XXXXXXXXXXXXXXXXXXXXXXX***********************************************XXXXXXXXXXXXXXXXXXXXXX
+2024-10-18 11:44:44,629 INFO  - X
+2024-10-18 11:44:44,629 INFO  - X
+2024-10-18 11:44:44,629 INFO  - X
+2024-10-18 11:44:44,630 INFO  - X
+2024-10-18 11:44:44,630 INFO  - X
+2024-10-18 11:44:44,639 INFO  - ****************************************************************************************
+2024-10-18 11:44:44,639 INFO  - ****************************************************************************************
+2024-10-18 11:44:44,639 INFO  - $$$$$$$$$$$$$$$$$$$$$            verify Array in data key.         $$$$$$$$$$$$$$$$$$$$$$$$$
+2024-10-18 11:44:44,639 INFO  - ****************************************************************************************
+2024-10-18 11:44:44,639 INFO  - ****************************************************************************************
+2024-10-18 11:44:44,644 INFO  - Request URI is - https://reqres.in/api/users?page=2
+2024-10-18 11:44:44,739 INFO  - Request Response is - {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
